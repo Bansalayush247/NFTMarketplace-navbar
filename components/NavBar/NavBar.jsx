@@ -10,7 +10,7 @@ import { CgMenuLeft, CgMenuRight } from "react-icons/cg";
 import Style from "./NavBar.module.css";
 import { Discover, HelpCenter, Profile, Notification, SideBar } from "./index";
 import { Button } from "../componentsindex";
-import images from "../../img";
+import images from '../../img'
 
 const NavBar = () => {
   //USESTATE Components
