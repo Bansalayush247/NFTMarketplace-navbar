@@ -23,7 +23,7 @@
 }
 
 .navbar_container_left_box_input{
-    width: 60%;
+    width: 70%;
     border:1px solid var(--icons-color);
     display: flex;
     align-items: center;
@@ -32,7 +32,7 @@
 }
 
 .navbar_container_left_box_input input {
-    width: 85%;
+    width: 90%;
     border: none;
     outline: none;
     background-color: transparent;
@@ -146,6 +146,7 @@
     }
     .navbar_container_left_box_input_box{
         display: none;
+       
     }
     .navbar_container_right_discover{
         display: none;
@@ -159,4 +160,14 @@
     .sideBar{
         display: block;
     }
+  
 }
+
+/* @media screen and (max-width:653px) and (min-width:20px) {
+    .navbar_container{
+        grid-template-columns: 1fr ;
+    }
+    .navbar_container_left_box_input {
+        width: 100%;
+    }
+} */

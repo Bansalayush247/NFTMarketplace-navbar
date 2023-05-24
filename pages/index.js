@@ -1,9 +1,29 @@
-import React from 'react'
+import React from "react";
+import Style from "../styles/index.module.css";
+import {
+  HeroSection,
+  BigNFTSlider,
+  Service,
+  Subscribe,
+  Title,
+  Category,
+} from "../components/componentsindex";
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <div className={Style.homepage}>
+      <HeroSection />
+      <Service />
+      <BigNFTSlider />
 
-export default Home
+      <Title
+        heading="Browse by category"
+        paragraph="Explore the NFTs in the most featured categories."
+      />
+      <Category />
+      <Subscribe />
+    </div>
+  );
+};
+
+export default Home;
